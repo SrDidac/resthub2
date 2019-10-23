@@ -3,7 +3,7 @@
 User = require('./userModel');
 // Handle index actions
 exports.index = function (req, res) {
-    User.get(function (err, user) {
+    User.get(function (err, users) {
         if (err) {
             res.json({
                 status: "error",

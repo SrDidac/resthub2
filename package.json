@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/SrDidac/resthub2/issues"
   },
-  "homepage": "https://github.com/SrDidac/resthub2#readme"
+  "homepage": "https://github.com/SrDidac/resthub2#readme",
+  "devDependencies": {}
 }
