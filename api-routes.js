@@ -21,6 +21,23 @@ router.route('/contacts/:contact_id')
     .put(contactController.update)
     .delete(contactController.delete);
 
+var userController = require('./userController');
+
+    router.route('/users')
+    .get(userController.index)
+    .post(userController.new);
+
+router.route('/users/:user_id')
+    .get(userController.view)
+    .patch(userController.update)
+    .put(userController.update)
+    .delete(userController.delete);
+
+var loginController = require('./loginController');
+
+    router.route('/login')
+    .post(loginController.login);
+
 
 // Export API routes
 module.exports = router;

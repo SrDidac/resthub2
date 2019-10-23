@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-
   },
   "keywords": [
     "API",
@@ -22,5 +21,13 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrDidac/resthub2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SrDidac/resthub2/issues"
+  },
+  "homepage": "https://github.com/SrDidac/resthub2#readme"
 }
